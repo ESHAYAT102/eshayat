@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Eshayat | Home</title>
+    <link rel="icon" type="image/x-icon" href="favicon.png" />
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap");
+
+      @keyframes fade {
+        0% {
+          opacity: 0;
+        }
+        100% {
+          opacity: 1;
+        }
+      }
+
+      body {
+        font-family: "Montserrat", sans-serif;
+        background-color: #111325;
+        color: aliceblue;
+      }
+
+      ::selection {
+        color: #5e6bc0;
+        background: #15183e;
+      }
+
+      nav {
+        width: 98.6%;
+        height: 60px;
+        background: rgba(255, 255, 255, 0);
+        box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+        backdrop-filter: blur(10px);
+        -webkit-backdrop-filter: blur(10px);
+        border-radius: 360px;
+        border: 1px solid rgba(255, 255, 255, 0.18);
+        justify-content: center;
+        position: fixed;
+        top: 12px;
+        left: 0.6%;
+        right: 0.6%;
+        text-align: center;
+      }
+
+      nav a {
+        text-decoration: none;
+        color: aliceblue;
+        padding: 10px 15px;
+        display: inline-block;
+        margin-top: 10px;
+      }
+
+      nav a:hover {
+        color: #653aff;
+      }
+
+      nav a:active {
+        text-decoration: none;
+        color: aliceblue;
+      }
+
+      .h {
+        text-align: center;
+        margin-top: 60px;
+        animation: fade 0.7s ease-in-out;
+      }
+
+      .t {
+        font-size: 20px;
+        text-align: center;
+        animation: fade 0.7s ease-in-out;
+      }
+
+      .heading {
+        color: aliceblue;
+        margin-bottom: 100px;
+        font-size: 60px;
+        margin-top: 100px;
+        text-align: center;
+        animation: fade 0.7s ease-in-out;
+      }
+
+      .devcard {
+        margin-top: 20px;
+        animation: fade 0.7s ease-in-out;
+      }
+
+      .devcard-img {
+        margin-left: 10%;
+        margin-right: 10%;
+        width: 80%;
+        animation: fade 0.7s ease-in-out;
+      }
+
+      .img1 {
+        width: 49.8%;
+        border-radius: 20px;
+        animation: fade 0.7s ease-in-out;
+      }
+
+      .img2 {
+        width: 49.8%;
+        border-radius: 20px;
+        animation: fade 0.7s ease-in-out;
+      }
+
+      .img3 {
+        width: 49.8%;
+        border-radius: 20px;
+        animation: fade 0.7s ease-in-out;
+      }
+
+      .img4 {
+        width: 49.8%;
+        border-radius: 20px;
+        animation: fade 0.7s ease-in-out;
+      }
+
+      footer {
+        margin-top: 50px;
+        width: 98.6%;
+        height: 52px;
+        background: rgba(255, 255, 255, 0);
+        box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+        backdrop-filter: blur(10px);
+        -webkit-backdrop-filter: blur(10px);
+        border-radius: 360px;
+        border: 1px solid rgba(255, 255, 255, 0.18);
+        justify-content: center;
+        position: relative;
+        left: 0.6%;
+        right: 0.6%;
+        text-align: center;
+        font-size: 15px;
+        animation: fade 0.7s ease-in-out;
+      }
+
+      ::-webkit-scrollbar {
+        width: 0px;
+      }
+      ::-webkit-scrollbar-track {
+        background: #15183e;
+      }
+      ::-webkit-scrollbar-thumb {
+        background: #5e6bc0;
+      }
+
+      @media screen and (max-width: 512px) {
+        .img1 {
+          width: 100%;
+        }
+        .img2 {
+          width: 100%;
+        }
+        .img3 {
+          width: 100%;
+        }
+        .img4 {
+          width: 100%;
+        }
+        footer {
+          height: 60px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <strong>
+      <nav>
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </strong>
+
+    <div class="nav"></div>
+
+    <h1 class="heading">Hello!<br />This Is Eshayat.</h1>
+
+    <p class="t">
+      My name is Eshayat Al-Wasiu. I am 13 years old. I am practicing Web
+      Development. I like to take pictures of the sky, and I love cars.
+    </p>
+
+    <div class="devcard-container">
+      <a
+        href="https://app.daily.dev/eshayatalwasiu"
+        target="_blank"
+        class="devcard"
+        ><img
+          src="https://api.daily.dev/devcards/v2/OfwaFKYJxbfBpzkqPhgMt.png?type=wide&r=kh2"
+          class="devcard-img"
+          alt="Eshayat Al-Wasiu's Dev Card"
+      /></a>
+    </div>
+
+    <h2 class="h">Best Pictures That I Took:</h2>
+
+    <img src="SKY (1).png" alt="An image of sky.(1)" class="img1" />
+    <img src="SKY (2).jpg" alt="An image of sky.(2)" class="img2" />
+    <img src="SKY (3).jpg" alt="An image of sky.(3)" class="img3" />
+    <img src="SKY (4).jpg" alt="An image of sky.(4)" class="img4" />
+
+    <footer>
+      <p>&copy; 2024, Made by Eshayat Al-Wasiu. All rights reserved.</p>
+    </footer>
+  </body>
+</html>
