@@ -41,7 +41,7 @@ const Tools = () => {
             <AnimatedBody delay={0.2} text="Frontend" />
             <div>
               <AnimatedTools
-                className="grid grid-cols-10 gap-4"
+                className="grid grid-cols-10 gap-10"
                 delay={0.2}
                 stepSize={0.1}
                 iconSize={50}
@@ -56,7 +56,7 @@ const Tools = () => {
             <AnimatedBody delay={0.3} text="Backend & Servers" />
             <div>
               <AnimatedTools
-                className="grid grid-cols-10 gap-4"
+                className="grid grid-cols-10 gap-10"
                 delay={0.3}
                 stepSize={0.1}
                 iconSize={50}
@@ -70,7 +70,7 @@ const Tools = () => {
             <AnimatedBody delay={0.4} text="Others" />
             <div>
               <AnimatedTools
-                className="grid grid-cols-10 gap-4"
+                className="grid grid-cols-10 gap-10"
                 delay={0.4}
                 stepSize={0.1}
                 iconSize={50}
