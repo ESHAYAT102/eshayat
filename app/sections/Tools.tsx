@@ -17,6 +17,7 @@ import {
   SiReactrouter,
   SiFirebase,
   SiMongodb,
+  SiVercel,
 } from "react-icons/si";
 import AnimatedTools from "../animations/AnimatedTools.tsx";
 
@@ -81,6 +82,7 @@ const Tools = () => {
               >
                 <SiGithub size={50} />
                 <SiGit size={50} />
+                <SiVercel size={50} />
                 <SiFigma size={50} />
                 <SiNotion size={50} />
                 <SiSpotify size={50} />
