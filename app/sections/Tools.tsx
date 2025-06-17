@@ -49,6 +49,8 @@ const Tools = () => {
                 <SiTypescript size={50} />
                 <SiJavascript size={50} />
                 <SiReact size={50} />
+                <SiReactrouter size={50} />
+                <SiTailwindcss size={50} />
               </AnimatedTools>
             </div>
           </div>
@@ -79,8 +81,6 @@ const Tools = () => {
               >
                 <SiGithub size={50} />
                 <SiGit size={50} />
-                <SiTailwindcss size={50} />
-                <SiReactrouter size={50} />
                 <SiFigma size={50} />
                 <SiNotion size={50} />
                 <SiSpotify size={50} />
