@@ -15,6 +15,8 @@ import {
   SiSpotify,
   SiTailwindcss,
   SiReactrouter,
+  SiFirebase,
+  SiMongodb,
 } from "react-icons/si";
 import AnimatedTools from "../animations/AnimatedTools.tsx";
 
@@ -68,14 +70,16 @@ const Tools = () => {
             <AnimatedBody delay={0.4} text="Others" />
             <div>
               <AnimatedTools
-                className="grid grid-cols-5 gap-4"
+                className="grid grid-cols-10 gap-4"
                 delay={0.4}
                 stepSize={0.1}
                 iconSize={50}
               >
-                <SiTailwindcss size={50} />
                 <SiGithub size={50} />
                 <SiGit size={50} />
+                <SiTailwindcss size={50} />
+                <SiFirebase size={50} />
+                <SiMongodb size={50} />
                 <SiReactrouter size={50} />
                 <SiFigma size={50} />
                 <SiNotion size={50} />
