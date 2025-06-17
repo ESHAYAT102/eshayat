@@ -15,7 +15,6 @@ import {
   SiSpotify,
   SiTailwindcss,
   SiReactrouter,
-  SiExcalidraw,
 } from "react-icons/si";
 import { VscVscode } from "react-icons/vsc";
 import AnimatedTools from "../animations/AnimatedTools.tsx";
@@ -81,7 +80,6 @@ const Tools = () => {
                 <SiGit size={50} />
                 <SiReactrouter size={50} />
                 <SiFigma size={50} />
-                <SiExcalidraw size={50} />
                 <SiNotion size={50} />
                 <SiSpotify size={50} />
               </AnimatedTools>
