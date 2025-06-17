@@ -16,7 +16,6 @@ import {
   SiTailwindcss,
   SiReactrouter,
 } from "react-icons/si";
-import { VscVscode } from "react-icons/vsc";
 import AnimatedTools from "../animations/AnimatedTools.tsx";
 
 const Tools = () => {
@@ -74,7 +73,6 @@ const Tools = () => {
                 stepSize={0.1}
                 iconSize={50}
               >
-                <VscVscode size={50} />
                 <SiTailwindcss size={50} />
                 <SiGithub size={50} />
                 <SiGit size={50} />
