@@ -37,11 +37,11 @@ const Tools = () => {
         />
 
         <div className="mx-auto w-[100%] justify-center lg:max-w-[1200px]">
-          <div className="mb-10 flex w-[100vw] flex-col gap-4 text-[18px] font-bold leading-relaxed tracking-wide text-[#e4ded7] md:mb-16 md:gap-6 md:text-[40px] md:leading-relaxed lg:mb-16 lg:w-[50%]">
+          <div className="mb-10 flex w-[100vw] flex-col gap-4 text-[18px] font-bold leading-relaxed tracking-wide text-[#e4ded7] md:mb-16 md:gap-6 md:text-[40px] md:leading-relaxed lg:mb-16 lg:w-[100vw]">
             <AnimatedBody delay={0.2} text="Frontend" />
             <div>
               <AnimatedTools
-                className="grid grid-cols-10 gap-10"
+                className="grid grid-cols-10 gap-20"
                 delay={0.2}
                 stepSize={0.1}
                 iconSize={50}
@@ -52,29 +52,25 @@ const Tools = () => {
               </AnimatedTools>
             </div>
           </div>
-          <div className="mb-10 flex w-[100vw] flex-col gap-4 text-[18px] font-bold leading-relaxed tracking-wide text-[#e4ded7] md:mb-16 md:gap-6 md:text-[40px] md:leading-relaxed lg:mb-16 lg:w-[50%]">
+          <div className="mb-10 flex w-[100vw] flex-col gap-4 text-[18px] font-bold leading-relaxed tracking-wide text-[#e4ded7] md:mb-16 md:gap-6 md:text-[40px] md:leading-relaxed lg:mb-16 lg:w-[100vw]">
             <AnimatedBody delay={0.3} text="Backend & Servers" />
             <div>
               <AnimatedTools
-                className="grid grid-cols-10 gap-10"
+                className="grid grid-cols-10 gap-20"
                 delay={0.3}
                 stepSize={0.1}
                 iconSize={50}
               >
-                <div className="p-10">
-                  <SiExpress size={50} />
-                </div>
-                <div className="p-10">
-                  <SiNodedotjs size={50} />
-                </div>
+                <SiExpress size={50} />
+                <SiNodedotjs size={50} />
               </AnimatedTools>
             </div>
           </div>
-          <div className="mb-10 flex w-[100vw] flex-col gap-4 text-[18px] font-bold leading-relaxed tracking-wide text-[#e4ded7] md:mb-16 md:gap-6 md:text-[40px] md:leading-relaxed lg:mb-16 lg:w-[50%]">
+          <div className="mb-10 flex w-[100vw] flex-col gap-4 text-[18px] font-bold leading-relaxed tracking-wide text-[#e4ded7] md:mb-16 md:gap-6 md:text-[40px] md:leading-relaxed lg:mb-16 lg:w-[100vw]">
             <AnimatedBody delay={0.4} text="Others" />
             <div>
               <AnimatedTools
-                className="grid grid-cols-10 gap-10"
+                className="grid grid-cols-10 gap-20"
                 delay={0.4}
                 stepSize={0.1}
                 iconSize={50}
