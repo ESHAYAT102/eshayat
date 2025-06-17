@@ -61,8 +61,12 @@ const Tools = () => {
                 stepSize={0.1}
                 iconSize={50}
               >
-                <SiExpress size={50} />
-                <SiNodedotjs size={50} />
+                <div className="m-10">
+                  <SiExpress size={50} />
+                </div>
+                <div className="m-10">
+                  <SiNodedotjs size={50} />
+                </div>
               </AnimatedTools>
             </div>
           </div>
