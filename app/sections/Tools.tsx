@@ -61,8 +61,10 @@ const Tools = () => {
                 stepSize={0.1}
                 iconSize={50}
               >
-                <SiExpress size={50} />
                 <SiNodedotjs size={50} />
+                <SiExpress size={50} />
+                <SiFirebase size={50} />
+                <SiMongodb size={50} />
               </AnimatedTools>
             </div>
           </div>
@@ -78,8 +80,6 @@ const Tools = () => {
                 <SiGithub size={50} />
                 <SiGit size={50} />
                 <SiTailwindcss size={50} />
-                <SiFirebase size={50} />
-                <SiMongodb size={50} />
                 <SiReactrouter size={50} />
                 <SiFigma size={50} />
                 <SiNotion size={50} />
