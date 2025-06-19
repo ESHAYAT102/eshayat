@@ -38,5 +38,3 @@ export default function RootLayout({ children }: RootLayoutProps) {
     </html>
   );
 }
-
-<Script defer strategy="afterInteractive" src="https://cloud.umami.is/script.js" data-website-id="c0236e25-4199-4409-8339-889a7754c851" />
